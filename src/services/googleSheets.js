@@ -87,7 +87,7 @@ const parseProducts = (csvText, source) => {
         const headerRowIndex = -100; // Force bypass
         const imageIdx = 3;
         const nameIdx = 4;
-        const rawLinkIdx = 7;
+        const rawLinkIdx = 2; // Column C
         const priceUSDIdx = 8;
         const priceCNYIdx = 9;
         const qcIdx = 10;

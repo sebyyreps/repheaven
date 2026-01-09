@@ -30,11 +30,11 @@ const ProductCard = ({ product, disabled = false }) => {
                     e.preventDefault();
                     return;
                 }
-                ReactGA.event({
+                ReactGA.event("product_click", {
                     category: "Product",
-                    action: "Click",
                     label: Name,
-                    value: priceUSD ? parseFloat(priceUSD) : 0
+                    value: priceUSD ? parseFloat(priceUSD) : 0,
+                    currency: "USD"
                 });
             }}
             target={!disabled ? "_blank" : undefined}

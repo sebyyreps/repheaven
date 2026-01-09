@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import ReactGA from "react-ga4";
 
 // Initialize GA4 - Replace with your Measurement ID
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+const GA_MEASUREMENT_ID = "G-QX4Q3ZK3VZ";
 ReactGA.initialize(GA_MEASUREMENT_ID);
 
 function App() {
@@ -587,7 +587,7 @@ const Footer = ({ onCookieClick, onDataSecurityClick, onPrivacyPolicyClick, onDi
             </div>
 
             <div className="copyright-text">
-                © 2025 RepHeaven — All rights reserved.
+                © 2026 RepHeaven — All rights reserved.
             </div>
         </footer>
     );

@@ -112,7 +112,7 @@ const parseProducts = (csvText, source) => {
             if (col3 === '' && col4 !== '' && col4.length > 2 && !hasLink && !hasPrice) {
                 if (col4.includes('My Tiktok') || col4.includes('Click here') || col4 === 'Name') return null;
 
-                if (col4.includes('Best sellers') || col4.toLowerCase().includes('quick link')) {
+                if (col4.includes('Best sellers') || col4.toLowerCase().includes('quick link') || col4.toLowerCase().includes('repheaven')) {
                     currentCategory = null;
                     currentSubcategory = null;
                     return null;
